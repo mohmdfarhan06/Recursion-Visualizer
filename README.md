@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌳 Recursion Visualizer
 
 An interactive desktop application built with Python, Tkinter, and Matplotlib to trace, step through, and visualize recursive Data Structures & Algorithms (DSA) execution in real-time.
@@ -169,3 +170,6 @@ git push -u origin main
 Distributed under the MIT License. See `LICENSE` for more information.
 
 **Author**: CS Portfolio Project / Maintainer
+=======
+# Recursion-Visualizer
+>>>>>>> 6d698fa297c045dda6bab014d90f4938a476e307
