@@ -39,7 +39,7 @@ An interactive desktop application built with Python, Tkinter, and Matplotlib to
 
 1. **Clone or Download the Repository**:
    ```cmd
-   git clone https://github.com/YOUR_USERNAME/recursion-visualizer.git
+   git clone https://github.com/mohmdfarhan06/Recursion-Visualizer.git
    cd recursion-visualizer
    ```
 
