@@ -1,5 +1,5 @@
 @echo off
+cd /d "%~dp0"
 title Recursion Visualizer
 echo Starting Recursion Visualizer...
-python main.py
-pause
+start "" python main.py

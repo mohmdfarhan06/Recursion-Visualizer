@@ -57,6 +57,12 @@ class RecursionVisualizerApp(tk.Tk):
         # Register playback subscriber
         self.playback.add_listener(self._on_playback_step)
 
+        # Force window to foreground
+        self.lift()
+        self.attributes("-topmost", True)
+        self.after(200, lambda: self.attributes("-topmost", False))
+        self.focus_force()
+
     def _setup_theme(self) -> None:
         """Applies custom dark theme colors using ttk styles."""
         self.configure(bg="#181825")
